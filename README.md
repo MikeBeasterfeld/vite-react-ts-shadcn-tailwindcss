@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite + shadcn + tailwindcss
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -48,5 +48,3 @@ export default tseslint.config({
   },
 })
 ```
-# vite-react-ts-shadcn-tailwindcss
-# vite-react-ts-shadcn-tailwindcss
