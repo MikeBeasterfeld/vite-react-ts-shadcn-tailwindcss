@@ -21,8 +21,8 @@
     "noUncheckedSideEffectImports": true
   },
   "include": [
-    "vite.config.ts",
-    "setupTests.ts",
-    "vitest.config.ts",
+    "./vite.config.ts",
+    "./vitest.config.ts",
+    "./setupTests.ts",
   ]
 }

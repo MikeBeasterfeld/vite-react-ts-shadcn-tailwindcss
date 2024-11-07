@@ -10,10 +10,19 @@
   ],
   "compilerOptions": {
     "baseUrl": ".",
+    "types": [
+      "vitest/globals",
+      "@testing-library/jest-dom"
+    ],
     "paths": {
       "@/*": [
         "./src/*"
       ]
     }
-  }
+  },
+  "include": [
+    "./vite.config.ts",
+    "./vitest.config.ts",
+    "./setupTests.ts",
+  ]
 }

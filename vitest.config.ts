@@ -6,7 +6,6 @@ import viteConfig from './vite.config'
 export default mergeConfig(viteConfig, {
     plugins: [react()],
     test: {
-        globals: true,
         environment: 'jsdom',
         setupFiles: ['./setupTests.ts'],
     },
